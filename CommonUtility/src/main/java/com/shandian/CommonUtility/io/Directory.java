@@ -7,11 +7,14 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.regex.Pattern;
 
+import com.shandian.util.PPrint;
+
 public final class Directory {
     public static File[] local(File dir, final String regex) {
         return dir.listFiles(new FilenameFilter() {
             private final Pattern pattern = Pattern.compile(regex);
 
+            @Override
             public boolean accept(File dir, String name) {
                 return pattern.matcher(new File(name).getName()).matches();
             }
@@ -38,19 +41,22 @@ public final class Directory {
 
         @Override
         public String toString() {
-            return "dirs:" + dirs.toString() + "\n\n files" + files.toString();
+            return "dirs:" + PPrint.pformat(dirs) + "\n\n files" + PPrint.pformat(files);
         }
 
+        @Override
         public boolean hasNext() {
             // TODO Auto-generated method stub
             return false;
         }
 
+        @Override
         public File next() {
             // TODO Auto-generated method stub
             return null;
         }
 
+        @Override
         public void remove() {
             // TODO Auto-generated method stub
         }
