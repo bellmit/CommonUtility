@@ -100,7 +100,6 @@ public final class MoneyUtil {
      * 
      * 方法描述：将钱格式化为10.00样子的字符串
      * 
-     * @author: 胡耀忠 hyz
      * @date： 日期：2015-2-11 时间：下午03:11:07
      * @param money
      * @return
@@ -115,7 +114,6 @@ public final class MoneyUtil {
      * 
      * 方法描述：double数据比较
      *
-     * @author: 刘平贵
      * @date： 日期：2017年7月30日 时间：下午3:56:57
      * @param v1
      * @param v2
