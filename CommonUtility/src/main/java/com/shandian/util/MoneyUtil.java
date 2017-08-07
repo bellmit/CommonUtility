@@ -5,9 +5,8 @@ import java.text.DecimalFormat;
 
 /**
  * 
- * 神州鹰掌通家园项目组 Title: 用于金钱的四则运行 Description: 提供较为精确的double数值的加减乘除 Copyright: Copyright (c) 2014 厦门神州鹰软件科技有限公司
+ * Title: 用于金钱的四则运行 Description: 提供较为精确的double数值的加减乘除 Copyright: Copyright (c) 2014 厦门神州鹰软件科技有限公司
  * 
- * @author 胡耀忠 创建时间:2014-5-15下午04:48:18
  * 
  */
 public final class MoneyUtil {
